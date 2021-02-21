@@ -11,12 +11,14 @@
 	animation-name: bike;
 	animation-duration:10s;
 	  animation-iteration-count:infinite;
+	  animation-timing-function: ease-in;
+}
 /*animation*/
 
 @keyframes bike{
 	from {
-		right: 1300px;
+		right: 1500px;
 	}
 	to {
-		right: 0px;
+		right: 30px;
 	}
