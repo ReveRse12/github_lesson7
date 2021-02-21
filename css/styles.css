@@ -1,0 +1,24 @@
+.nig{
+	width: 100%;
+	height: 100vh;
+}
+.bike{
+	position: absolute;
+	bottom: 10%;
+	right: 1300px;
+	width: 200px;
+	height: auto;
+	animation-name: bike;
+	animation-duration:10s;
+	  animation-iteration-count:infinite;
+/*animation*/
+
+@keyframes bike{
+	from {
+		right: 1300px;
+	}
+	to {
+		right: 0px;
+
+	}
+}
